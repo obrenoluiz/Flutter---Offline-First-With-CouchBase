@@ -5,8 +5,8 @@ import 'app/app_widget.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   await CouchbaseLiteFlutter.init();
-  
+
   runApp(const MyApp());
 }

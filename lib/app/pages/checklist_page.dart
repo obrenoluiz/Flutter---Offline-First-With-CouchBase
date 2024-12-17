@@ -1,7 +1,6 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'package:checklist/app/logic/checklist/checklist_cubit.dart';
-import 'package:checklist/app/services/couchbase_service.dart';
 import 'package:checklist/app/widget/input_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -165,7 +164,7 @@ class _ChecklistPageState extends State<ChecklistPage> {
             ),
             const Center(
               child: Text(
-                'Desenvolvido por Breno Luiz ao cursar na Alura.',
+                'Desenvolvido por Alura. Projeto fictício sem fins comerciais.',
                 style: TextStyle(color: Colors.white, fontSize: 12),
                 textAlign: TextAlign.center,
               ),
